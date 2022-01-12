@@ -1,0 +1,47 @@
+/* do not touch this part */
+.header,
+header{
+    display: flex;
+}
+.header p{
+    font-size: 18px;
+    text-align: center;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    padding:10px;
+}
+.navbar ul li a,
+.navbar ul 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+}
+.generate p,
+.signup p,
+.login p,
+.congrat p,
+.reciept p{
+    font-size: 40px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+.center{
+   height: 50%;
+   width: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+footer{
+    text-align: center;
+    font-size: 5px;
+
+}

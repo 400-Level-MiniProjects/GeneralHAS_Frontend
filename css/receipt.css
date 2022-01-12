@@ -1,0 +1,125 @@
+/* do not touch this part */
+.header,
+header{
+    display: flex;
+}
+.header p{
+    font-size: 18px;
+    text-align: center;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    padding:10px;
+}
+.navbar ul li a,
+.navbar ul 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+}
+.generate p,
+.signup p,
+.login p,
+.congrat p,
+.reciept p{
+    font-size: 40px;
+    text-align: center;
+}
+body{
+    background-color: white;
+}
+
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+    *, ::before, ::after{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-family: 'Lato', sans-serif;
+    }
+    #main{
+        background-color: white;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #main .page{
+        background-color: white;
+        width: 700px;
+        height: 670px;
+        border: 0.2px solid #888da13f;
+        border-radius: 10px;
+        filter: drop-shadow(0px 4px 4px #203b9323);
+        display: flex;
+    }
+    #main .page .left{
+        width: 50%;
+        padding-left: 30px;
+    }
+    #main .page .left img{
+        padding-top: 20px;
+        padding-left: 20px;
+        height: 70px;
+    }
+    #main .page .left h2{
+        width: 55%;
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    #main .page .left h3{
+        font-weight: 400;
+        font-size: 15px;
+        width: 70%;
+        margin-bottom: 5px;
+    }
+    #main .page .left span{
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    #main .page .right{
+        width: 50%;
+        text-align: right;
+        padding-right: 30px;
+    }
+    #main .page .right h1{
+        margin-top: 50px;
+        font-size: 30px;
+        font-weight: 550;
+        letter-spacing: 0px;
+    }
+    #main .page .right h3{
+        margin: 3px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    #main .page .right h5{
+        margin: 5px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    #main .page .right .h5{
+        margin-bottom: 50px;
+    }
+    #main .page .right .h52{
+        margin-bottom: 70px;
+    }
+    #main .page .right a{
+        text-decoration: none;
+        font-weight: 600;
+        padding-top: 50px;
+    }
+    @media(max-width:375px){
+        #main{
+            border: solid red;
+            width: 200px;
+            height: 200px;
+        }
+    }
