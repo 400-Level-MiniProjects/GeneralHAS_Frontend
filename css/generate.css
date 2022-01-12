@@ -1,0 +1,129 @@
+/* do not touch this part */
+.header,
+header{
+    display: flex;
+}
+.header p{
+    font-size: 18px;
+    text-align: center;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    padding:10px;
+}
+.navbar ul li a,
+.navbar ul 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+}
+.generate p,
+.signup p,
+.login p,
+.congrat p,
+.reciept p{
+    font-size: 40px;
+    text-align: center;
+}
+body{
+    background-color: white;
+}
+img{
+    width: 30%;
+    height: 20%;
+    margin-right: auto;
+    display: inline;
+    margin-left: auto;
+}
+.main{
+    width: 100%;
+    min-height: 95vh;
+    display: flex;
+}
+.left{
+    min-height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center;*/
+    padding-left: 80px;
+}
+
+.about{
+    text-align: left;    
+    width: 500px;
+    height: 500px;
+	padding-top: 500px;
+    padding-bottom: 50px;
+}
+input{
+    width: 510px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 5px;
+}
+input::placeholder{
+    color: black;
+    font-size: 15px;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+#dropdown {
+    margin: 25px 0 0 0;
+    width: 510px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btn{
+    color: white;
+    border: transparent;
+    background-color: blue;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 530px;
+    margin-top: 50px;
+}
+@media(max-width:375px){ 
+    /* 375-667 */
+    img{
+        display: none;
+
+        
+    }
+    .main .left{
+        padding-left: 30px;
+        width: 70px;
+    }
+     #btn{
+         width: 70px;
+        
+     }
+
+    }
+
+    @media(max-width:768px){
+        h1{
+            font-size: 25px;
+        }
+        input{
+            width: 250px;
+            height: 35px;
+        }
+        #btn{
+            border-color: blue;
+            padding-top: 15px;
+            padding-bottom: 25px;
+            width: 150px;
+            margin-top: 30px;
+        }
+        img{
+            width: 42%;
+            margin-top: 25%;
+        }
+    }
